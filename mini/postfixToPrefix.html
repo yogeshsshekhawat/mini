@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infix to Postfix Converter</title>
+    <link rel="stylesheet" href="v1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>   postfix  to prefixConverter</h1>
+        <div class="input-area">
+            <label for="postfix">Enter Postfix Expression:</label>
+            <input type="text" id="postfix" placeholder="A B C * +">
+            <button onclick="convertToPrefixFromPostfix()">Convert to Prefix</button>
+        </div>
+        <div class="output-area">
+            <label for="prefix">Prefix Expression:</label>
+            <input type="text" id="prefix" readonly>
+        </div>
+        <div id="error-message"></div>
+    </div>
+    <script src="v5.js"></script>
+</body>
+</html>
